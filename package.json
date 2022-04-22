@@ -19,7 +19,9 @@
     "url": "https://website.axcora.com/"
   },
   "license": "MIT",
-   },
+  "bugs": {
+    "url": "https://github.com/mesinkasir/cuteblog11ty/issues"
+  },
   "homepage": "https://axcora.my.id/pico/cuteblog/",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
