@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "cuteblog",
+  "version": "2.1.2",
+  "description": "New Free template download gratis cuteblog for eleventy 11ty.",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git://github.com/11ty/cuteblog11ty.git"
   },
   "author": {
     "name": "Zach Leatherman",
@@ -19,10 +19,8 @@
     "url": "https://zachleat.com/"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+   },
+  "homepage": "https://axcora.my.id/pico/cuteblog/",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.1.6",
