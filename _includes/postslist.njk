@@ -6,8 +6,9 @@
   <img class="card" width="320" height="240" alt="{{ post.data.title }}" src="{{ post.data.cover }}"/>
   <section class="card-content p-3">
     <h3>{{ post.data.title }} ✏️</h3>
-  <p class="date"  datetime="{{ post.date | htmlDateString }}">⏰  {{ post.date | readableDate }}</p>
-   {% for tag in post.data.tags | filterTagList %}
+  <p class="cute">👧 publish by {{post.data.name}}</p>
+  <p class="date"  datetime="{{ post.date | htmlDateString }}"> ⏰  {{ post.date | readableDate }}</p>
+     {% for tag in post.data.tags | filterTagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}">🎈 {{ tag }}</a>
     {% endfor %}

@@ -2,6 +2,8 @@
 title: Jekyll
 description: Cuteblog template build for jekyll
 date: 2022-04-17
+name: axcora
+link: https://website.axcora.com
 cover: https://thumbs.dreamstime.com/b/flat-design-business-process-workflow-management-communicating-ready-to-animation-characters-compouse-your-scenes-office-work-128992317.jpg
 tags:
 - cuteblog

@@ -3,6 +3,8 @@ title: Astro
 description: Cuteblog template build for astro
 date: 2022-04-17
 cover: https://media.istockphoto.com/vectors/people-searching-for-creative-solutions-teamwork-business-concept-vector-id1306949457?k=20&m=1306949457&s=612x612&w=0&h=JmOIEsNPhtdWRPMHsQyY1B-7LrYHk45_na5dPi8hHsk=
+name: axcora
+link: https://website.axcora.com
 tags:
 - cuteblog
 - astro

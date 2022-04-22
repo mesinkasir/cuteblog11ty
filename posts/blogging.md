@@ -3,6 +3,8 @@ title: Blogging
 description: Cuteblog a special for blogger lovers.
 date: 2022-04-21
 cover: https://media.istockphoto.com/vectors/business-communication-internet-blogging-post-flat-design-vector-vector-id1143088863?k=20&m=1143088863&s=612x612&w=0&h=kJgOoz9QAhbT83Acyhm9whRtxt2j7J7VzWAxCHuEa8o=
+name: axcora
+link: https://website.axcora.com
 tags: 
 - cuteblog
 - blog

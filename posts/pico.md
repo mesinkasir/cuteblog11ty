@@ -3,6 +3,8 @@ title: Pico
 date: 2022-04-17
 cover: https://img.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg?w=2000
 description: Cuteblog template build for pico cms
+name: axcora
+link: https://website.axcora.com
 tags: 
 - cuteblog
 - pico cms

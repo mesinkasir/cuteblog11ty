@@ -5,6 +5,8 @@ date: 2022-04-20
 description: i will develope your website using eleventy 11ty.
 cover: https://media.istockphoto.com/vectors/woman-with-laptop-sitting-in-nature-and-leaves-concept-illustration-vector-id1139913278?k=20&m=1139913278&s=612x612&w=0&h=Ue0Nh74fYCnNd5hfwBCLwJ2VeZqjXxnI5iEXqqTLXb8=
 templateClass: tmpl-post
+name: axcora
+link: https://website.axcora.com
 tags:
 - cuteblog
 - about
