@@ -4,7 +4,9 @@
 
 documentation [https://www.hockeycomputindo.com/2022/04/cuteblog-11ty-for-eleventy-generator.html →](https://www.hockeycomputindo.com/2022/04/cuteblog-11ty-for-eleventy-generator.html)
 
-test drive demo [https://cuteblog.pages.dev/ →](https://cuteblog.pages.dev/)
+test drive demo [https://cuteblog.pages.dev →](https://cuteblog.pages.dev/)
+
+Play video [https://youtu.be/cLrYQFUZKJc →](https://youtu.be/cLrYQFUZKJc)
 
 Edit on StackBlitz ⚡️
 
@@ -14,4 +16,6 @@ Test Peform on lighthouse
 
 documentation [https://www.hockeycomputindo.com/2022/04/cuteblog-11ty-for-eleventy-generator.html →](https://www.hockeycomputindo.com/2022/04/cuteblog-11ty-for-eleventy-generator.html)
 
-test drive demo [https://cuteblog.pages.dev/ →](https://cuteblog.pages.dev/)
+test drive demo [https://cuteblog.pages.dev →](https://cuteblog.pages.dev/)
+
+Play video [https://youtu.be/cLrYQFUZKJc →](https://youtu.be/cLrYQFUZKJc)
