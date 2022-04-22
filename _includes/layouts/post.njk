@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<div class="p-3">
+<section class="card p-1">
+<img class="img-fluid card" alt="{{ title }}" src="{{ cover }}"/>
+<div class="card-content p-3 p-md-5">
+<h1><a href="{{ page.url }}">{{ title }}</a></h1>
+<time datetime="{{ page.date | htmlDateString }}" class="date">⏰ {{ page.date | readableDate }}</time><br/>
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="post-tag">🎈 {{ tag }}</a>
+{%- endfor %}
+<p class="dotted"/>
+{{ content | safe }}
+
+{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+<hr>
+
+  {%- if nextPost %}← <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>{% endif %}
+  {%- if previousPost %}<a class="float-end" href="{{ previousPost.url | url }}">{{ previousPost.data.title }} →</a>{% endif %}
+{%- endif %}
+</div>
+</section>
+</div>

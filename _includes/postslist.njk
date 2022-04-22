@@ -1,0 +1,20 @@
+<div class="row" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+{% for post in postslist | reverse %}
+  <div class="col-md-4 p-3{% if post.url == url %} postlist-item-active{% endif %}">
+  <div class="card p-1">
+    <a href="{{ post.url | url }}" class="p-1">
+  <img class="img-fluid card" alt="{{ post.data.title }}" src="{{ post.data.cover }}"/>
+  <section class="card-content p-3">
+    <h3>{{ post.data.title }} ✏️</h3>
+  <p class="date"  datetime="{{ post.date | htmlDateString }}">⏰  {{ post.date | readableDate }}</p>
+   {% for tag in post.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}">🎈 {{ tag }}</a>
+    {% endfor %}
+    <p>📝 {{ post.data.description }}</p>
+   </section>
+    </a>
+   </div>
+   </div>
+{% endfor %}
+</div>

@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+title: Cuteblog Post
+description: a blog template cuteblog for eleventy 11ty website and blog
+cover: https://cdn.dribbble.com/users/77598/screenshots/5919494/dribbble.png
+permalink: /posts/
+eleventyNavigation:
+  key: Blog
+  order: 2
+---
+
+<h1>My Blog Post</h1>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
