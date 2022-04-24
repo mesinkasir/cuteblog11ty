@@ -21,13 +21,16 @@ Hey you can request cute blog for other technology and content management sytem.
 
 and other project on progress
 
-- jekyll
-- react
-- angular
-- symfony
-- django
-- get axcora cms
-- gatsby
+- [cuteblog for jekyll →](https://mesinkasir.github.io/cuteblog-jekyll/)
+- [cuteblog for react →](https://cuteblog.vercel.app/)
+- [cuteblog for pico cms →](https://axcora.my.id/pico/cuteblog)
+- [cuteblog for astro →](https://cuteblog.netlify.app/)
+- cuteblog for angular
+- cuteblog for symfony
+- cuteblog for django
+- cuteblog for flask
+- cuteblog for get axcora cms
+- cuteblog for gatsby
 
 stay tuned...
 
