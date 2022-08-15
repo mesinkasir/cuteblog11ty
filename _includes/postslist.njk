@@ -3,7 +3,7 @@
   <div class="col-md-4 p-3{% if post.url == url %} postlist-item-active{% endif %}">
   <div class="card p-1">
     <a href="{{ post.url | url }}" class="p-1">
-  <img class="card" width="320" height="240" alt="{{ post.data.title }}" src="{{ post.data.cover }}"/>
+  <img class="card" width="100%" height="100%" alt="{{ post.data.title }}" src="{{ post.data.cover }}"/>
   <section class="card-content p-3">
     <h3>{{ post.data.title }} ✏️</h3>
   <p class="cute">👧 publish by {{post.data.name}}</p>
