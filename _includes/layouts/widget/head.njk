@@ -7,7 +7,8 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 <meta content='{{ title or metadata.title }}' property='og:title'/>
-<meta content='https://axcora.com' property='og:author'/>
+<meta content='https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll' property='og:author'/>
+<meta content='https://www.fiverr.com/creativitas/' property='og:developer'/>
 <meta content='{{ title or metadata.title }}' name='facebook:title'/>
 <meta content='website' property='og:type'/>
 <meta content='https://www.facebook.com/mesinkasircomplete' property='facebook:author'/>
@@ -15,7 +16,7 @@
 <meta content='{{ cover or metadata.cover }}' name='twitter:image'/>
 <link rel="icon" type="image/x-icon" href="{{ cover or metadata.cover }}" />
 <meta content='{{ title or metadata.title }}' property='og:site_name'/>
-<meta name="generator" content="Eleventy v0.11.1" />
+<meta name="generator" content="{{ eleventy.generator }}">
 <meta content='{{ description or metadata.description }}' property='facebook:description'/>
 <meta content='summary_large_image' name='twitter:card'/>
 <meta content='https://twitter.com/hockeycomp' property='twitter:author'/>
