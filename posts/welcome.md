@@ -2,7 +2,7 @@
 title: Welcome
 description: Welcome to cuteblog unique blog template.
 date: 2022-04-22
-cover: https://cdn.dribbble.com/users/77598/screenshots/5919494/dribbble.png
+cover: https://static.vecteezy.com/system/resources/thumbnails/006/895/579/small/cute-girl-working-with-laptop-logo-banner-hand-drawn-cartoon-art-illustration-vector.jpg
 name: axcora
 link: https://website.axcora.com
 tags: 
