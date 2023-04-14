@@ -27,6 +27,8 @@ Simple fast and easy to create article content or blog with cuteblog of course i
 
 Buy me a coffee
 
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="axcora" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
 - BCA Bank 0181884109- Atas nama Suci Chanifah.
 
 Need build develope website using eleventy with premium themes ?? so [hire me →](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
